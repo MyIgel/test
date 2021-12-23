@@ -13,7 +13,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - run: |
-          echo "Main"
+          echo "Another PR"
           echo "Hello '${{ github.event.inputs.name }}'"
           echo "- in '${{ github.event.inputs.home }}'"
           echo "- github.event_path '${{ github.event_path }}'"
